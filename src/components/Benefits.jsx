@@ -3,7 +3,7 @@ import bottle from "../assets/zamzam/zamzam-1.png";
 const Benefits = () => {
     return (
       <div>
-        <div>
+        <div className="container mx-auto">
           <h2 className="w-full my-10 border-double border-4 border-black text-center text-2xl font-extrabold shadow-2xl shadow-black">
             জমজম পানির উপকারিতা
           </h2>
