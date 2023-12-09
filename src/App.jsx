@@ -1,5 +1,6 @@
 import "./App.css";
 import Hero from "./components/Hero";
+import OrderSystem from "./components/OrderSystem";
 import Products from "./components/Products";
 import Benefits from "./components/benefits";
 
@@ -9,6 +10,7 @@ function App() {
       <Hero />
       <Benefits />
       <Products />
+      <OrderSystem/>
       <div>
         <hr />
         <div className="container mx-auto flex justify-between">
